@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">legarage</string>
+    <string name="facebook_app_id">812338952268111</string>
+    <string name="text_start1">عميلنا العزيز ,,</string>
+    <string name="text_start2">شكراً علي تحميل تطبيق لوجراج قم بتسجيل الدخول</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>

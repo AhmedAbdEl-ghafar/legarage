@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_row_listview3">
+
+
+    <TextView
+        android:id="@+id/id_order_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="كود القطعة : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/ddate_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/id_order_text"
+        android:layout_alignRight="@+id/id_order_text"
+        android:layout_below="@+id/id_order_text"
+        android:layout_marginTop="10dp"
+        android:text="وقت البيع : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/discreption_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ddate_text"
+        android:layout_alignLeft="@+id/ddate_text"
+        android:layout_below="@+id/ddate_text"
+        android:layout_marginTop="10dp"
+        android:text="الاسم التوصيفي : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/url_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/discreption_text"
+        android:layout_alignRight="@+id/discreption_text"
+        android:layout_below="@+id/discreption_text"
+        android:layout_marginTop="10dp"
+        android:text="رابط المزاد :"
+
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/url_text"
+        android:layout_alignRight="@+id/url_text"
+        android:layout_below="@+id/url"
+        android:layout_marginTop="10dp"
+        android:text="سعر البيع : "
+
+        android:textColor="@android:color/black" />
+
+
+
+    <TextView
+        android:id="@+id/id_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ddate_text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/ddate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ddate_text"
+        android:layout_alignRight="@+id/id_order"
+
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/discreption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/discreption_text"
+        android:layout_alignRight="@+id/ddate"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/discreption"
+        android:layout_alignTop="@+id/url_text"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/price_text"
+        android:layout_alignRight="@+id/url"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imagess_flog_nodelivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>

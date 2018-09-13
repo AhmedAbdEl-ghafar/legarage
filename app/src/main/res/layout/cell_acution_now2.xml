@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_row_home_page"
+    android:layoutDirection="rtl">
+
+
+    <TextView
+        android:id="@+id/Brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>

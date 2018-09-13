@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ahmedabdelghafar.legarage.Home"
+    android:layoutDirection="rtl"
+    >
+
+<!--
+    <item android:id="@+id/mapTypeNone"
+        android:title="@string/map_type_none"/>
+
+    <item android:id="@+id/mapTypeNormal"
+        android:title="@string/map_type_normal"/>
+
+    <item android:id="@+id/mapTypeTerrain"
+        android:title="@string/map_type_terrain"/>
+
+    <item android:id="@+id/mapTypeSatellite"
+        android:title="@string/map_type_satellite"/>
+
+    <item android:id="@+id/mapTypeHybrid"
+        android:title="@string/map_type_hybrid"/>
+-->
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/icon_homepage"
+        android:title="الصفحة الرئيسية"
+        app:itemTextColor="#E689C3"
+        />
+
+    <item android:id="@+id/menu2"
+        android:title="الإشعارات"
+        android:icon="@drawable/notification"/>
+
+    <item
+        android:id="@+id/menu3"
+        android:title="الرسائل"
+        android:icon="@drawable/message"></item>
+
+    <item android:id="@+id/menu4"
+        android:title="اتصل بنا"
+        android:icon="@drawable/call_us"/>
+
+    <item android:id="@+id/menu5"
+    android:title="مبيعاتي"
+        android:icon="@drawable/sales"/>
+
+    <item android:id="@+id/menu6"
+        android:title="مشترياتي"
+        android:icon="@drawable/parchess"
+        />
+
+    <item android:id="@+id/menu7"
+        android:title="عطاءاتي"
+        android:icon="@drawable/gavel"
+        />
+
+    <item android:id="@+id/menu8"
+        android:title="قطع معجب بها"
+        android:icon="@drawable/likess"/>
+
+    <item android:id="@+id/menu9"
+        android:title="الإعدادات"
+        android:icon="@drawable/settingsss"/>
+
+    <item android:id="@+id/menu10"
+        android:title="تسجيل الخروج"
+        android:icon="@drawable/log_out"/>
+
+    <!-- <item android:id="@+id/menu3"
+     android:title="@string/menu3"/>
+
+ <item android:id="@+id/menu4"
+     android:title="@string/menu4"/>
+
+ <item android:id="@+id/menu5"
+     android:title="@string/menu5"/>
+
+ <item android:id="@+id/menu6"
+     android:title="@string/menu6"/>
+
+ <item android:id="@+id/menu7"
+     android:title="@string/menu7"/>
+
+ <item android:id="@+id/menu8"
+     android:title="@string/menu8"/>
+
+ <item android:id="@+id/menu9"
+     android:title="@string/menu9"/>
+
+ <item android:id="@+id/menu10"
+     android:title="@string/menu10"/>
+
+ <item android:id="@+id/menu11"
+     android:title="@string/menu11"/>
+
+ <item android:id="@+id/menu12"
+     android:title="@string/menu12"/>
+
+ <item android:id="@+id/menu13"
+     android:title="@string/menu13"/>
+
+ <item android:id="@+id/menu14"
+     android:title="@string/menu14"/>
+
+ <item android:id="@+id/menu15"
+     android:title="@string/menu15"/>
+
+ <item android:id="@+id/menu16"
+     android:title="@string/menu16"/>
+
+ <item android:id="@+id/menu17"
+     android:title="@string/menu17"/>
+
+ <item android:id="@+id/menu18"
+     android:title="@string/menu18"/>
+
+ <item android:id="@+id/menu19"
+     android:title="@string/menu19"/>
+
+ <item android:id="@+id/menu20"
+     android:title="@string/menu20"/>
+
+ <item android:id="@+id/menu21"
+     android:title="@string/menu21"/>
+-->
+</menu>

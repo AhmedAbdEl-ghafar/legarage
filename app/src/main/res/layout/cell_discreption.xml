@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_row_listview3"
+    >
+
+    <TextView
+        android:id="@+id/id_order_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="كود القطعة : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/ddate_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/id_order_text"
+        android:layout_alignRight="@+id/id_order_text"
+        android:layout_below="@+id/id_order_text"
+        android:layout_marginTop="10dp"
+        android:text="وقت الاستلام : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/item_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_order_text"
+        android:layout_alignStart="@+id/id_order_text"
+        android:layout_below="@+id/ddate_text"
+        android:layout_marginTop="10dp"
+        android:text="اسم القطعة : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/quntity_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/item_name_text"
+        android:layout_alignRight="@+id/item_name_text"
+        android:layout_below="@+id/item_name_text"
+        android:layout_marginTop="10dp"
+        android:text="الكمية : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price_start_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/quntity_text"
+        android:layout_alignRight="@+id/quntity_text"
+        android:layout_below="@+id/quntity_text"
+        android:layout_marginTop="10dp"
+        android:text="السعر الافتتاحي : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price_sales_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/price_start_text"
+        android:layout_alignRight="@+id/price_start_text"
+        android:layout_below="@+id/price_start_text"
+        android:layout_marginTop="10dp"
+        android:text="سعر البيع المباشر : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price_Compensatory_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/price_sales_text"
+        android:layout_alignRight="@+id/price_sales_text"
+        android:layout_below="@+id/price_sales_text"
+        android:layout_marginTop="10dp"
+        android:text="القيمة التعويضية : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/display_expenses_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/price_Compensatory_text"
+        android:layout_alignRight="@+id/price_Compensatory_text"
+        android:layout_below="@+id/price_Compensatory_text"
+        android:layout_marginTop="10dp"
+        android:text="مصاريف العرض : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/commission_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/display_expenses_text"
+        android:layout_alignRight="@+id/display_expenses_text"
+        android:layout_below="@+id/display_expenses_text"
+        android:layout_marginTop="10dp"
+        android:text="نظام العمولة : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/dr_receiving_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/commission_text"
+        android:layout_alignRight="@+id/commission_text"
+        android:layout_below="@+id/commission_text"
+        android:layout_marginTop="10dp"
+        android:text="استلام رقم : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/value_plus_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dr_receiving_text"
+        android:layout_alignRight="@+id/dr_receiving_text"
+        android:layout_below="@+id/dr_receiving_text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="قيمة المزايدة : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/id_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/id_order_text"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="92dp"
+
+        />
+    <TextView
+        android:id="@+id/ddate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ddate_text"
+        android:layout_alignRight="@+id/id_order"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_name_text"
+        android:layout_alignRight="@+id/ddate"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/quntity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/quntity_text"
+        android:layout_alignRight="@+id/item_name"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price_sales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/price_sales_text"
+        android:layout_alignRight="@+id/quntity"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/price_start_text"
+        android:layout_alignRight="@+id/price_sales"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/price_Compensatory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/price_Compensatory_text"
+        android:layout_alignRight="@+id/price_start"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/display_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/display_expenses_text"
+        android:layout_alignRight="@+id/price_Compensatory"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/commission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/commission_text"
+        android:layout_alignRight="@+id/display_expenses"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/dr_receiving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dr_receiving_text"
+        android:layout_alignRight="@+id/commission"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/value_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/value_plus_text"
+        android:layout_alignRight="@+id/dr_receiving"
+        android:gravity="right"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
